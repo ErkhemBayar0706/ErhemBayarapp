@@ -57,7 +57,7 @@ const TicTac = () => {
       {winner && <Text style={styles.winner}>Winner: {winner}</Text>}
       {winner && (
         <TouchableOpacity style={styles.restart} onPress={handleRestart}>
-          <Text style={styles.winner}> Restart</Text>
+          <Text style={styles.winner}> Restart . </Text>
         </TouchableOpacity>
       )}
 
